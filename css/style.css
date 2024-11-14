@@ -13,3 +13,44 @@
     color: #fff;
 }
 
+.card {
+    background: linear-gradient(135deg, #c8102e, #ffcc00);
+    border: none;
+    color: #fff;
+    margin: 20px;
+    transition: transform 0.2s;
+    overflow: hidden;
+    border-radius: 50px !important;
+    border: 0 !important;
+}
+.card:hover {
+    transform: scale(1.05);
+}
+.card-img-top {
+    transition: transform 0.5s ease;
+}
+.card:hover .card-img-top {
+    transform: scale(1.1);
+}
+.card-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+.card-text {
+    font-size: 1rem;
+}
+.price {
+    font-size: 1.25rem;
+    font-weight: bold;
+}
+.btn-custom {
+    background-color: #ffcc00; /* Amarelo do McDonald's */
+    color: #c8102e; /* Vermelho do McDonald's */
+    border: none;
+    transition: background-color 0.3s, transform 0.3s;
+}
+.btn-custom:hover {
+    background-color: #c8102e;
+    color: #ffcc00;
+    transform: scale(1.05);
+}
