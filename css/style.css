@@ -1,16 +1,16 @@
 .footer {
     background-color: #c8102e; /* Vermelho do McDonald's */
-    color: #ffcc00; /* Amarelo do McDonald's */
+    color: #fff !important;
     padding: 40px 0;
 }
-.footer h5 {
-    color: #ffcc00;
-}
 .footer a {
-    color: #ffcc00;
+    color: #fff;
 }
 .footer a:hover {
-    color: #fff;
+    color: white;
+}
+.footer {
+    background: linear-gradient(135deg, #c8102e, #ffcc00);
 }
 
 .card {
@@ -53,4 +53,34 @@
     background-color: #c8102e;
     color: #ffcc00;
     transform: scale(1.05);
+}
+
+/* Header */
+.navbar {
+    background-color: #c8102fe3;
+}
+.navbar-brand {
+    font-size: 40px !important;
+    font-weight: bolder;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6);
+}
+.navbar-brand, .nav-link {
+    color: #ffcc00 !important; /* Amarelo do McDonald's */
+}
+/* Estilo para o hover */
+.nav-link:hover, .navbar-brand:hover {
+    color: #fff !important;
+}
+
+/* Titulo Animado */
+.animate {
+    animation: pulse 1.5s infinite;
+}
+@keyframes pulse {
+    0%, 100% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.1);
+    }
 }
