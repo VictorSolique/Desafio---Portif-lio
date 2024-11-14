@@ -1,0 +1,15 @@
+.footer {
+    background-color: #c8102e; /* Vermelho do McDonald's */
+    color: #ffcc00; /* Amarelo do McDonald's */
+    padding: 40px 0;
+}
+.footer h5 {
+    color: #ffcc00;
+}
+.footer a {
+    color: #ffcc00;
+}
+.footer a:hover {
+    color: #fff;
+}
+
